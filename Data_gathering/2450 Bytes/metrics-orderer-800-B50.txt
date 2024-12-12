@@ -1,0 +1,506 @@
+# HELP blockcutter_block_fill_duration The time from first transaction enqueing to the block being cut in seconds.
+# TYPE blockcutter_block_fill_duration histogram
+blockcutter_block_fill_duration_bucket{channel="mychannel",le="0.005"} 0
+blockcutter_block_fill_duration_bucket{channel="mychannel",le="0.01"} 0
+blockcutter_block_fill_duration_bucket{channel="mychannel",le="0.025"} 0
+blockcutter_block_fill_duration_bucket{channel="mychannel",le="0.05"} 0
+blockcutter_block_fill_duration_bucket{channel="mychannel",le="0.1"} 0
+blockcutter_block_fill_duration_bucket{channel="mychannel",le="0.25"} 0
+blockcutter_block_fill_duration_bucket{channel="mychannel",le="0.5"} 0
+blockcutter_block_fill_duration_bucket{channel="mychannel",le="1"} 0
+blockcutter_block_fill_duration_bucket{channel="mychannel",le="2.5"} 0
+blockcutter_block_fill_duration_bucket{channel="mychannel",le="5"} 0
+blockcutter_block_fill_duration_bucket{channel="mychannel",le="10"} 486
+blockcutter_block_fill_duration_bucket{channel="mychannel",le="+Inf"} 486
+blockcutter_block_fill_duration_sum{channel="mychannel"} 2430.285779836001
+blockcutter_block_fill_duration_count{channel="mychannel"} 486
+# HELP broadcast_enqueue_duration The time to enqueue a transaction in seconds.
+# TYPE broadcast_enqueue_duration histogram
+broadcast_enqueue_duration_bucket{channel="mychannel",status="SUCCESS",type="CONFIG_UPDATE",le="0.005"} 3
+broadcast_enqueue_duration_bucket{channel="mychannel",status="SUCCESS",type="CONFIG_UPDATE",le="0.01"} 3
+broadcast_enqueue_duration_bucket{channel="mychannel",status="SUCCESS",type="CONFIG_UPDATE",le="0.025"} 3
+broadcast_enqueue_duration_bucket{channel="mychannel",status="SUCCESS",type="CONFIG_UPDATE",le="0.05"} 3
+broadcast_enqueue_duration_bucket{channel="mychannel",status="SUCCESS",type="CONFIG_UPDATE",le="0.1"} 3
+broadcast_enqueue_duration_bucket{channel="mychannel",status="SUCCESS",type="CONFIG_UPDATE",le="0.25"} 3
+broadcast_enqueue_duration_bucket{channel="mychannel",status="SUCCESS",type="CONFIG_UPDATE",le="0.5"} 3
+broadcast_enqueue_duration_bucket{channel="mychannel",status="SUCCESS",type="CONFIG_UPDATE",le="1"} 3
+broadcast_enqueue_duration_bucket{channel="mychannel",status="SUCCESS",type="CONFIG_UPDATE",le="2.5"} 3
+broadcast_enqueue_duration_bucket{channel="mychannel",status="SUCCESS",type="CONFIG_UPDATE",le="5"} 3
+broadcast_enqueue_duration_bucket{channel="mychannel",status="SUCCESS",type="CONFIG_UPDATE",le="10"} 3
+broadcast_enqueue_duration_bucket{channel="mychannel",status="SUCCESS",type="CONFIG_UPDATE",le="+Inf"} 3
+broadcast_enqueue_duration_sum{channel="mychannel",status="SUCCESS",type="CONFIG_UPDATE"} 0.00033692
+broadcast_enqueue_duration_count{channel="mychannel",status="SUCCESS",type="CONFIG_UPDATE"} 3
+broadcast_enqueue_duration_bucket{channel="mychannel",status="SUCCESS",type="ENDORSER_TRANSACTION",le="0.005"} 5078
+broadcast_enqueue_duration_bucket{channel="mychannel",status="SUCCESS",type="ENDORSER_TRANSACTION",le="0.01"} 5078
+broadcast_enqueue_duration_bucket{channel="mychannel",status="SUCCESS",type="ENDORSER_TRANSACTION",le="0.025"} 5078
+broadcast_enqueue_duration_bucket{channel="mychannel",status="SUCCESS",type="ENDORSER_TRANSACTION",le="0.05"} 5078
+broadcast_enqueue_duration_bucket{channel="mychannel",status="SUCCESS",type="ENDORSER_TRANSACTION",le="0.1"} 5078
+broadcast_enqueue_duration_bucket{channel="mychannel",status="SUCCESS",type="ENDORSER_TRANSACTION",le="0.25"} 5078
+broadcast_enqueue_duration_bucket{channel="mychannel",status="SUCCESS",type="ENDORSER_TRANSACTION",le="0.5"} 5078
+broadcast_enqueue_duration_bucket{channel="mychannel",status="SUCCESS",type="ENDORSER_TRANSACTION",le="1"} 5078
+broadcast_enqueue_duration_bucket{channel="mychannel",status="SUCCESS",type="ENDORSER_TRANSACTION",le="2.5"} 5078
+broadcast_enqueue_duration_bucket{channel="mychannel",status="SUCCESS",type="ENDORSER_TRANSACTION",le="5"} 5078
+broadcast_enqueue_duration_bucket{channel="mychannel",status="SUCCESS",type="ENDORSER_TRANSACTION",le="10"} 5078
+broadcast_enqueue_duration_bucket{channel="mychannel",status="SUCCESS",type="ENDORSER_TRANSACTION",le="+Inf"} 5078
+broadcast_enqueue_duration_sum{channel="mychannel",status="SUCCESS",type="ENDORSER_TRANSACTION"} 0.2165277909999997
+broadcast_enqueue_duration_count{channel="mychannel",status="SUCCESS",type="ENDORSER_TRANSACTION"} 5078
+# HELP broadcast_processed_count The number of transactions processed.
+# TYPE broadcast_processed_count counter
+broadcast_processed_count{channel="mychannel",status="SUCCESS",type="CONFIG_UPDATE"} 3
+broadcast_processed_count{channel="mychannel",status="SUCCESS",type="ENDORSER_TRANSACTION"} 5078
+# HELP broadcast_validate_duration The time to validate a transaction in seconds.
+# TYPE broadcast_validate_duration histogram
+broadcast_validate_duration_bucket{channel="mychannel",status="SUCCESS",type="CONFIG_UPDATE",le="0.005"} 1
+broadcast_validate_duration_bucket{channel="mychannel",status="SUCCESS",type="CONFIG_UPDATE",le="0.01"} 3
+broadcast_validate_duration_bucket{channel="mychannel",status="SUCCESS",type="CONFIG_UPDATE",le="0.025"} 3
+broadcast_validate_duration_bucket{channel="mychannel",status="SUCCESS",type="CONFIG_UPDATE",le="0.05"} 3
+broadcast_validate_duration_bucket{channel="mychannel",status="SUCCESS",type="CONFIG_UPDATE",le="0.1"} 3
+broadcast_validate_duration_bucket{channel="mychannel",status="SUCCESS",type="CONFIG_UPDATE",le="0.25"} 3
+broadcast_validate_duration_bucket{channel="mychannel",status="SUCCESS",type="CONFIG_UPDATE",le="0.5"} 3
+broadcast_validate_duration_bucket{channel="mychannel",status="SUCCESS",type="CONFIG_UPDATE",le="1"} 3
+broadcast_validate_duration_bucket{channel="mychannel",status="SUCCESS",type="CONFIG_UPDATE",le="2.5"} 3
+broadcast_validate_duration_bucket{channel="mychannel",status="SUCCESS",type="CONFIG_UPDATE",le="5"} 3
+broadcast_validate_duration_bucket{channel="mychannel",status="SUCCESS",type="CONFIG_UPDATE",le="10"} 3
+broadcast_validate_duration_bucket{channel="mychannel",status="SUCCESS",type="CONFIG_UPDATE",le="+Inf"} 3
+broadcast_validate_duration_sum{channel="mychannel",status="SUCCESS",type="CONFIG_UPDATE"} 0.019111611
+broadcast_validate_duration_count{channel="mychannel",status="SUCCESS",type="CONFIG_UPDATE"} 3
+broadcast_validate_duration_bucket{channel="mychannel",status="SUCCESS",type="ENDORSER_TRANSACTION",le="0.005"} 5075
+broadcast_validate_duration_bucket{channel="mychannel",status="SUCCESS",type="ENDORSER_TRANSACTION",le="0.01"} 5075
+broadcast_validate_duration_bucket{channel="mychannel",status="SUCCESS",type="ENDORSER_TRANSACTION",le="0.025"} 5078
+broadcast_validate_duration_bucket{channel="mychannel",status="SUCCESS",type="ENDORSER_TRANSACTION",le="0.05"} 5078
+broadcast_validate_duration_bucket{channel="mychannel",status="SUCCESS",type="ENDORSER_TRANSACTION",le="0.1"} 5078
+broadcast_validate_duration_bucket{channel="mychannel",status="SUCCESS",type="ENDORSER_TRANSACTION",le="0.25"} 5078
+broadcast_validate_duration_bucket{channel="mychannel",status="SUCCESS",type="ENDORSER_TRANSACTION",le="0.5"} 5078
+broadcast_validate_duration_bucket{channel="mychannel",status="SUCCESS",type="ENDORSER_TRANSACTION",le="1"} 5078
+broadcast_validate_duration_bucket{channel="mychannel",status="SUCCESS",type="ENDORSER_TRANSACTION",le="2.5"} 5078
+broadcast_validate_duration_bucket{channel="mychannel",status="SUCCESS",type="ENDORSER_TRANSACTION",le="5"} 5078
+broadcast_validate_duration_bucket{channel="mychannel",status="SUCCESS",type="ENDORSER_TRANSACTION",le="10"} 5078
+broadcast_validate_duration_bucket{channel="mychannel",status="SUCCESS",type="ENDORSER_TRANSACTION",le="+Inf"} 5078
+broadcast_validate_duration_sum{channel="mychannel",status="SUCCESS",type="ENDORSER_TRANSACTION"} 3.9133725590000035
+broadcast_validate_duration_count{channel="mychannel",status="SUCCESS",type="ENDORSER_TRANSACTION"} 5078
+# HELP consensus_etcdraft_active_nodes Number of active nodes in this channel.
+# TYPE consensus_etcdraft_active_nodes gauge
+consensus_etcdraft_active_nodes{channel="mychannel"} 1
+consensus_etcdraft_active_nodes{channel="system-channel"} 1
+# HELP consensus_etcdraft_cluster_size Number of nodes in this channel.
+# TYPE consensus_etcdraft_cluster_size gauge
+consensus_etcdraft_cluster_size{channel="mychannel"} 1
+consensus_etcdraft_cluster_size{channel="system-channel"} 1
+# HELP consensus_etcdraft_committed_block_number The block number of the latest block committed.
+# TYPE consensus_etcdraft_committed_block_number gauge
+consensus_etcdraft_committed_block_number{channel="mychannel"} 488
+consensus_etcdraft_committed_block_number{channel="system-channel"} 1
+# HELP consensus_etcdraft_config_proposals_received The total number of proposals received for config type transactions.
+# TYPE consensus_etcdraft_config_proposals_received counter
+consensus_etcdraft_config_proposals_received{channel="mychannel"} 2
+consensus_etcdraft_config_proposals_received{channel="system-channel"} 1
+# HELP consensus_etcdraft_data_persist_duration The time taken for etcd/raft data to be persisted in storage (in seconds).
+# TYPE consensus_etcdraft_data_persist_duration histogram
+consensus_etcdraft_data_persist_duration_bucket{channel="mychannel",le="0.005"} 415
+consensus_etcdraft_data_persist_duration_bucket{channel="mychannel",le="0.01"} 417
+consensus_etcdraft_data_persist_duration_bucket{channel="mychannel",le="0.025"} 489
+consensus_etcdraft_data_persist_duration_bucket{channel="mychannel",le="0.05"} 490
+consensus_etcdraft_data_persist_duration_bucket{channel="mychannel",le="0.1"} 490
+consensus_etcdraft_data_persist_duration_bucket{channel="mychannel",le="0.25"} 490
+consensus_etcdraft_data_persist_duration_bucket{channel="mychannel",le="0.5"} 490
+consensus_etcdraft_data_persist_duration_bucket{channel="mychannel",le="1"} 490
+consensus_etcdraft_data_persist_duration_bucket{channel="mychannel",le="2.5"} 490
+consensus_etcdraft_data_persist_duration_bucket{channel="mychannel",le="5"} 490
+consensus_etcdraft_data_persist_duration_bucket{channel="mychannel",le="10"} 490
+consensus_etcdraft_data_persist_duration_bucket{channel="mychannel",le="+Inf"} 490
+consensus_etcdraft_data_persist_duration_sum{channel="mychannel"} 1.3842739590000002
+consensus_etcdraft_data_persist_duration_count{channel="mychannel"} 490
+consensus_etcdraft_data_persist_duration_bucket{channel="system-channel",le="0.005"} 3
+consensus_etcdraft_data_persist_duration_bucket{channel="system-channel",le="0.01"} 3
+consensus_etcdraft_data_persist_duration_bucket{channel="system-channel",le="0.025"} 3
+consensus_etcdraft_data_persist_duration_bucket{channel="system-channel",le="0.05"} 3
+consensus_etcdraft_data_persist_duration_bucket{channel="system-channel",le="0.1"} 3
+consensus_etcdraft_data_persist_duration_bucket{channel="system-channel",le="0.25"} 3
+consensus_etcdraft_data_persist_duration_bucket{channel="system-channel",le="0.5"} 3
+consensus_etcdraft_data_persist_duration_bucket{channel="system-channel",le="1"} 3
+consensus_etcdraft_data_persist_duration_bucket{channel="system-channel",le="2.5"} 3
+consensus_etcdraft_data_persist_duration_bucket{channel="system-channel",le="5"} 3
+consensus_etcdraft_data_persist_duration_bucket{channel="system-channel",le="10"} 3
+consensus_etcdraft_data_persist_duration_bucket{channel="system-channel",le="+Inf"} 3
+consensus_etcdraft_data_persist_duration_sum{channel="system-channel"} 0.001824949
+consensus_etcdraft_data_persist_duration_count{channel="system-channel"} 3
+# HELP consensus_etcdraft_is_leader The leadership status of the current node: 1 if it is the leader else 0.
+# TYPE consensus_etcdraft_is_leader gauge
+consensus_etcdraft_is_leader{channel="mychannel"} 1
+consensus_etcdraft_is_leader{channel="system-channel"} 1
+# HELP consensus_etcdraft_leader_changes The number of leader changes since process start.
+# TYPE consensus_etcdraft_leader_changes counter
+consensus_etcdraft_leader_changes{channel="mychannel"} 1
+consensus_etcdraft_leader_changes{channel="system-channel"} 1
+# HELP consensus_etcdraft_normal_proposals_received The total number of proposals received for normal type transactions.
+# TYPE consensus_etcdraft_normal_proposals_received counter
+consensus_etcdraft_normal_proposals_received{channel="mychannel"} 5078
+# HELP consensus_etcdraft_snapshot_block_number The block number of the latest snapshot.
+# TYPE consensus_etcdraft_snapshot_block_number gauge
+consensus_etcdraft_snapshot_block_number{channel="mychannel"} 359
+consensus_etcdraft_snapshot_block_number{channel="system-channel"} 0
+# HELP deliver_blocks_sent The number of blocks sent by the deliver service.
+# TYPE deliver_blocks_sent counter
+deliver_blocks_sent{channel="mychannel",data_type="block",filtered="false"} 981
+# HELP deliver_requests_completed The number of deliver requests that have been completed.
+# TYPE deliver_requests_completed counter
+deliver_requests_completed{channel="mychannel",data_type="block",filtered="false",success="false"} 4
+deliver_requests_completed{channel="mychannel",data_type="block",filtered="false",success="true"} 5
+# HELP deliver_requests_received The number of deliver requests that have been received.
+# TYPE deliver_requests_received counter
+deliver_requests_received{channel="mychannel",data_type="block",filtered="false"} 11
+# HELP deliver_streams_closed The number of GRPC streams that have been closed for the deliver service.
+# TYPE deliver_streams_closed counter
+deliver_streams_closed 8
+# HELP deliver_streams_opened The number of GRPC streams that have been opened for the deliver service.
+# TYPE deliver_streams_opened counter
+deliver_streams_opened 10
+# HELP etcd_debugging_snap_save_marshalling_duration_seconds The marshalling cost distributions of save called by snapshot.
+# TYPE etcd_debugging_snap_save_marshalling_duration_seconds histogram
+etcd_debugging_snap_save_marshalling_duration_seconds_bucket{le="0.001"} 2
+etcd_debugging_snap_save_marshalling_duration_seconds_bucket{le="0.002"} 2
+etcd_debugging_snap_save_marshalling_duration_seconds_bucket{le="0.004"} 2
+etcd_debugging_snap_save_marshalling_duration_seconds_bucket{le="0.008"} 2
+etcd_debugging_snap_save_marshalling_duration_seconds_bucket{le="0.016"} 2
+etcd_debugging_snap_save_marshalling_duration_seconds_bucket{le="0.032"} 2
+etcd_debugging_snap_save_marshalling_duration_seconds_bucket{le="0.064"} 2
+etcd_debugging_snap_save_marshalling_duration_seconds_bucket{le="0.128"} 2
+etcd_debugging_snap_save_marshalling_duration_seconds_bucket{le="0.256"} 2
+etcd_debugging_snap_save_marshalling_duration_seconds_bucket{le="0.512"} 2
+etcd_debugging_snap_save_marshalling_duration_seconds_bucket{le="1.024"} 2
+etcd_debugging_snap_save_marshalling_duration_seconds_bucket{le="2.048"} 2
+etcd_debugging_snap_save_marshalling_duration_seconds_bucket{le="4.096"} 2
+etcd_debugging_snap_save_marshalling_duration_seconds_bucket{le="8.192"} 2
+etcd_debugging_snap_save_marshalling_duration_seconds_bucket{le="+Inf"} 2
+etcd_debugging_snap_save_marshalling_duration_seconds_sum 0.00011806300000000001
+etcd_debugging_snap_save_marshalling_duration_seconds_count 2
+# HELP etcd_debugging_snap_save_total_duration_seconds The total latency distributions of save called by snapshot.
+# TYPE etcd_debugging_snap_save_total_duration_seconds histogram
+etcd_debugging_snap_save_total_duration_seconds_bucket{le="0.001"} 1
+etcd_debugging_snap_save_total_duration_seconds_bucket{le="0.002"} 2
+etcd_debugging_snap_save_total_duration_seconds_bucket{le="0.004"} 2
+etcd_debugging_snap_save_total_duration_seconds_bucket{le="0.008"} 2
+etcd_debugging_snap_save_total_duration_seconds_bucket{le="0.016"} 2
+etcd_debugging_snap_save_total_duration_seconds_bucket{le="0.032"} 2
+etcd_debugging_snap_save_total_duration_seconds_bucket{le="0.064"} 2
+etcd_debugging_snap_save_total_duration_seconds_bucket{le="0.128"} 2
+etcd_debugging_snap_save_total_duration_seconds_bucket{le="0.256"} 2
+etcd_debugging_snap_save_total_duration_seconds_bucket{le="0.512"} 2
+etcd_debugging_snap_save_total_duration_seconds_bucket{le="1.024"} 2
+etcd_debugging_snap_save_total_duration_seconds_bucket{le="2.048"} 2
+etcd_debugging_snap_save_total_duration_seconds_bucket{le="4.096"} 2
+etcd_debugging_snap_save_total_duration_seconds_bucket{le="8.192"} 2
+etcd_debugging_snap_save_total_duration_seconds_bucket{le="+Inf"} 2
+etcd_debugging_snap_save_total_duration_seconds_sum 0.002378373
+etcd_debugging_snap_save_total_duration_seconds_count 2
+# HELP etcd_disk_wal_fsync_duration_seconds The latency distributions of fsync called by WAL.
+# TYPE etcd_disk_wal_fsync_duration_seconds histogram
+etcd_disk_wal_fsync_duration_seconds_bucket{le="0.001"} 280
+etcd_disk_wal_fsync_duration_seconds_bucket{le="0.002"} 420
+etcd_disk_wal_fsync_duration_seconds_bucket{le="0.004"} 424
+etcd_disk_wal_fsync_duration_seconds_bucket{le="0.008"} 425
+etcd_disk_wal_fsync_duration_seconds_bucket{le="0.016"} 498
+etcd_disk_wal_fsync_duration_seconds_bucket{le="0.032"} 498
+etcd_disk_wal_fsync_duration_seconds_bucket{le="0.064"} 499
+etcd_disk_wal_fsync_duration_seconds_bucket{le="0.128"} 499
+etcd_disk_wal_fsync_duration_seconds_bucket{le="0.256"} 499
+etcd_disk_wal_fsync_duration_seconds_bucket{le="0.512"} 499
+etcd_disk_wal_fsync_duration_seconds_bucket{le="1.024"} 499
+etcd_disk_wal_fsync_duration_seconds_bucket{le="2.048"} 499
+etcd_disk_wal_fsync_duration_seconds_bucket{le="4.096"} 499
+etcd_disk_wal_fsync_duration_seconds_bucket{le="8.192"} 499
+etcd_disk_wal_fsync_duration_seconds_bucket{le="+Inf"} 499
+etcd_disk_wal_fsync_duration_seconds_sum 1.2908798349999993
+etcd_disk_wal_fsync_duration_seconds_count 499
+# HELP etcd_snap_db_fsync_duration_seconds The latency distributions of fsyncing .snap.db file
+# TYPE etcd_snap_db_fsync_duration_seconds histogram
+etcd_snap_db_fsync_duration_seconds_bucket{le="0.001"} 0
+etcd_snap_db_fsync_duration_seconds_bucket{le="0.002"} 0
+etcd_snap_db_fsync_duration_seconds_bucket{le="0.004"} 0
+etcd_snap_db_fsync_duration_seconds_bucket{le="0.008"} 0
+etcd_snap_db_fsync_duration_seconds_bucket{le="0.016"} 0
+etcd_snap_db_fsync_duration_seconds_bucket{le="0.032"} 0
+etcd_snap_db_fsync_duration_seconds_bucket{le="0.064"} 0
+etcd_snap_db_fsync_duration_seconds_bucket{le="0.128"} 0
+etcd_snap_db_fsync_duration_seconds_bucket{le="0.256"} 0
+etcd_snap_db_fsync_duration_seconds_bucket{le="0.512"} 0
+etcd_snap_db_fsync_duration_seconds_bucket{le="1.024"} 0
+etcd_snap_db_fsync_duration_seconds_bucket{le="2.048"} 0
+etcd_snap_db_fsync_duration_seconds_bucket{le="4.096"} 0
+etcd_snap_db_fsync_duration_seconds_bucket{le="8.192"} 0
+etcd_snap_db_fsync_duration_seconds_bucket{le="+Inf"} 0
+etcd_snap_db_fsync_duration_seconds_sum 0
+etcd_snap_db_fsync_duration_seconds_count 0
+# HELP etcd_snap_db_save_total_duration_seconds The total latency distributions of v3 snapshot save
+# TYPE etcd_snap_db_save_total_duration_seconds histogram
+etcd_snap_db_save_total_duration_seconds_bucket{le="0.1"} 0
+etcd_snap_db_save_total_duration_seconds_bucket{le="0.2"} 0
+etcd_snap_db_save_total_duration_seconds_bucket{le="0.4"} 0
+etcd_snap_db_save_total_duration_seconds_bucket{le="0.8"} 0
+etcd_snap_db_save_total_duration_seconds_bucket{le="1.6"} 0
+etcd_snap_db_save_total_duration_seconds_bucket{le="3.2"} 0
+etcd_snap_db_save_total_duration_seconds_bucket{le="6.4"} 0
+etcd_snap_db_save_total_duration_seconds_bucket{le="12.8"} 0
+etcd_snap_db_save_total_duration_seconds_bucket{le="25.6"} 0
+etcd_snap_db_save_total_duration_seconds_bucket{le="51.2"} 0
+etcd_snap_db_save_total_duration_seconds_bucket{le="+Inf"} 0
+etcd_snap_db_save_total_duration_seconds_sum 0
+etcd_snap_db_save_total_duration_seconds_count 0
+# HELP etcd_snap_fsync_duration_seconds The latency distributions of fsync called by snap.
+# TYPE etcd_snap_fsync_duration_seconds histogram
+etcd_snap_fsync_duration_seconds_bucket{le="0.001"} 1
+etcd_snap_fsync_duration_seconds_bucket{le="0.002"} 2
+etcd_snap_fsync_duration_seconds_bucket{le="0.004"} 2
+etcd_snap_fsync_duration_seconds_bucket{le="0.008"} 2
+etcd_snap_fsync_duration_seconds_bucket{le="0.016"} 2
+etcd_snap_fsync_duration_seconds_bucket{le="0.032"} 2
+etcd_snap_fsync_duration_seconds_bucket{le="0.064"} 2
+etcd_snap_fsync_duration_seconds_bucket{le="0.128"} 2
+etcd_snap_fsync_duration_seconds_bucket{le="0.256"} 2
+etcd_snap_fsync_duration_seconds_bucket{le="0.512"} 2
+etcd_snap_fsync_duration_seconds_bucket{le="1.024"} 2
+etcd_snap_fsync_duration_seconds_bucket{le="2.048"} 2
+etcd_snap_fsync_duration_seconds_bucket{le="4.096"} 2
+etcd_snap_fsync_duration_seconds_bucket{le="8.192"} 2
+etcd_snap_fsync_duration_seconds_bucket{le="+Inf"} 2
+etcd_snap_fsync_duration_seconds_sum 0.002252973
+etcd_snap_fsync_duration_seconds_count 2
+# HELP fabric_version The active version of Fabric.
+# TYPE fabric_version gauge
+fabric_version{version="2.2.5"} 1
+# HELP go_gc_duration_seconds A summary of the GC invocation durations.
+# TYPE go_gc_duration_seconds summary
+go_gc_duration_seconds{quantile="0"} 1.135e-05
+go_gc_duration_seconds{quantile="0.25"} 4.1847e-05
+go_gc_duration_seconds{quantile="0.5"} 6.197e-05
+go_gc_duration_seconds{quantile="0.75"} 8.9098e-05
+go_gc_duration_seconds{quantile="1"} 0.000634904
+go_gc_duration_seconds_sum 0.008760313
+go_gc_duration_seconds_count 119
+# HELP go_goroutines Number of goroutines that currently exist.
+# TYPE go_goroutines gauge
+go_goroutines 43
+# HELP go_info Information about the Go environment.
+# TYPE go_info gauge
+go_info{version="go1.17.5"} 1
+# HELP go_memstats_alloc_bytes Number of bytes allocated and still in use.
+# TYPE go_memstats_alloc_bytes gauge
+go_memstats_alloc_bytes 2.9003304e+07
+# HELP go_memstats_alloc_bytes_total Total number of bytes allocated, even if freed.
+# TYPE go_memstats_alloc_bytes_total counter
+go_memstats_alloc_bytes_total 1.931251416e+09
+# HELP go_memstats_buck_hash_sys_bytes Number of bytes used by the profiling bucket hash table.
+# TYPE go_memstats_buck_hash_sys_bytes gauge
+go_memstats_buck_hash_sys_bytes 1.63727e+06
+# HELP go_memstats_frees_total Total number of frees.
+# TYPE go_memstats_frees_total counter
+go_memstats_frees_total 6.279107e+06
+# HELP go_memstats_gc_cpu_fraction The fraction of this program's available CPU time used by the GC since the program started.
+# TYPE go_memstats_gc_cpu_fraction gauge
+go_memstats_gc_cpu_fraction 1.0964541662713276e-05
+# HELP go_memstats_gc_sys_bytes Number of bytes used for garbage collection system metadata.
+# TYPE go_memstats_gc_sys_bytes gauge
+go_memstats_gc_sys_bytes 5.655264e+06
+# HELP go_memstats_heap_alloc_bytes Number of heap bytes allocated and still in use.
+# TYPE go_memstats_heap_alloc_bytes gauge
+go_memstats_heap_alloc_bytes 2.9003304e+07
+# HELP go_memstats_heap_idle_bytes Number of heap bytes waiting to be used.
+# TYPE go_memstats_heap_idle_bytes gauge
+go_memstats_heap_idle_bytes 2.9827072e+07
+# HELP go_memstats_heap_inuse_bytes Number of heap bytes that are in use.
+# TYPE go_memstats_heap_inuse_bytes gauge
+go_memstats_heap_inuse_bytes 3.2038912e+07
+# HELP go_memstats_heap_objects Number of allocated objects.
+# TYPE go_memstats_heap_objects gauge
+go_memstats_heap_objects 34151
+# HELP go_memstats_heap_released_bytes Number of heap bytes released to OS.
+# TYPE go_memstats_heap_released_bytes gauge
+go_memstats_heap_released_bytes 2.2372352e+07
+# HELP go_memstats_heap_sys_bytes Number of heap bytes obtained from system.
+# TYPE go_memstats_heap_sys_bytes gauge
+go_memstats_heap_sys_bytes 6.1865984e+07
+# HELP go_memstats_last_gc_time_seconds Number of seconds since 1970 of last garbage collection.
+# TYPE go_memstats_last_gc_time_seconds gauge
+go_memstats_last_gc_time_seconds 1.723192510141439e+09
+# HELP go_memstats_lookups_total Total number of pointer lookups.
+# TYPE go_memstats_lookups_total counter
+go_memstats_lookups_total 0
+# HELP go_memstats_mallocs_total Total number of mallocs.
+# TYPE go_memstats_mallocs_total counter
+go_memstats_mallocs_total 6.313258e+06
+# HELP go_memstats_mcache_inuse_bytes Number of bytes in use by mcache structures.
+# TYPE go_memstats_mcache_inuse_bytes gauge
+go_memstats_mcache_inuse_bytes 9600
+# HELP go_memstats_mcache_sys_bytes Number of bytes used for mcache structures obtained from system.
+# TYPE go_memstats_mcache_sys_bytes gauge
+go_memstats_mcache_sys_bytes 16384
+# HELP go_memstats_mspan_inuse_bytes Number of bytes in use by mspan structures.
+# TYPE go_memstats_mspan_inuse_bytes gauge
+go_memstats_mspan_inuse_bytes 167688
+# HELP go_memstats_mspan_sys_bytes Number of bytes used for mspan structures obtained from system.
+# TYPE go_memstats_mspan_sys_bytes gauge
+go_memstats_mspan_sys_bytes 360448
+# HELP go_memstats_next_gc_bytes Number of heap bytes when next garbage collection will take place.
+# TYPE go_memstats_next_gc_bytes gauge
+go_memstats_next_gc_bytes 4.6446544e+07
+# HELP go_memstats_other_sys_bytes Number of bytes used for other system allocations.
+# TYPE go_memstats_other_sys_bytes gauge
+go_memstats_other_sys_bytes 1.85077e+06
+# HELP go_memstats_stack_inuse_bytes Number of bytes in use by the stack allocator.
+# TYPE go_memstats_stack_inuse_bytes gauge
+go_memstats_stack_inuse_bytes 1.048576e+06
+# HELP go_memstats_stack_sys_bytes Number of bytes obtained from system for stack allocator.
+# TYPE go_memstats_stack_sys_bytes gauge
+go_memstats_stack_sys_bytes 1.048576e+06
+# HELP go_memstats_sys_bytes Number of bytes obtained from system.
+# TYPE go_memstats_sys_bytes gauge
+go_memstats_sys_bytes 7.2434696e+07
+# HELP go_threads Number of OS threads created.
+# TYPE go_threads gauge
+go_threads 15
+# HELP grpc_comm_conn_closed gRPC connections closed. Open minus closed is the active number of connections.
+# TYPE grpc_comm_conn_closed counter
+grpc_comm_conn_closed 54
+# HELP grpc_comm_conn_opened gRPC connections opened. Open minus closed is the active number of connections.
+# TYPE grpc_comm_conn_opened counter
+grpc_comm_conn_opened 56
+# HELP grpc_server_stream_messages_received The number of stream messages received.
+# TYPE grpc_server_stream_messages_received counter
+grpc_server_stream_messages_received{method="Broadcast",service="orderer_AtomicBroadcast"} 5081
+grpc_server_stream_messages_received{method="Deliver",service="orderer_AtomicBroadcast"} 12
+# HELP grpc_server_stream_messages_sent The number of stream messages sent.
+# TYPE grpc_server_stream_messages_sent counter
+grpc_server_stream_messages_sent{method="Broadcast",service="orderer_AtomicBroadcast"} 5081
+grpc_server_stream_messages_sent{method="Deliver",service="orderer_AtomicBroadcast"} 991
+# HELP grpc_server_stream_request_duration The time to complete a stream request.
+# TYPE grpc_server_stream_request_duration histogram
+grpc_server_stream_request_duration_bucket{code="Canceled",method="Broadcast",service="orderer_AtomicBroadcast",le="0.005"} 0
+grpc_server_stream_request_duration_bucket{code="Canceled",method="Broadcast",service="orderer_AtomicBroadcast",le="0.01"} 2
+grpc_server_stream_request_duration_bucket{code="Canceled",method="Broadcast",service="orderer_AtomicBroadcast",le="0.025"} 2
+grpc_server_stream_request_duration_bucket{code="Canceled",method="Broadcast",service="orderer_AtomicBroadcast",le="0.05"} 2
+grpc_server_stream_request_duration_bucket{code="Canceled",method="Broadcast",service="orderer_AtomicBroadcast",le="0.1"} 2
+grpc_server_stream_request_duration_bucket{code="Canceled",method="Broadcast",service="orderer_AtomicBroadcast",le="0.25"} 2
+grpc_server_stream_request_duration_bucket{code="Canceled",method="Broadcast",service="orderer_AtomicBroadcast",le="0.5"} 2
+grpc_server_stream_request_duration_bucket{code="Canceled",method="Broadcast",service="orderer_AtomicBroadcast",le="1"} 2
+grpc_server_stream_request_duration_bucket{code="Canceled",method="Broadcast",service="orderer_AtomicBroadcast",le="2.5"} 2
+grpc_server_stream_request_duration_bucket{code="Canceled",method="Broadcast",service="orderer_AtomicBroadcast",le="5"} 2
+grpc_server_stream_request_duration_bucket{code="Canceled",method="Broadcast",service="orderer_AtomicBroadcast",le="10"} 5
+grpc_server_stream_request_duration_bucket{code="Canceled",method="Broadcast",service="orderer_AtomicBroadcast",le="+Inf"} 5
+grpc_server_stream_request_duration_sum{code="Canceled",method="Broadcast",service="orderer_AtomicBroadcast"} 15.337931921
+grpc_server_stream_request_duration_count{code="Canceled",method="Broadcast",service="orderer_AtomicBroadcast"} 5
+grpc_server_stream_request_duration_bucket{code="Canceled",method="Deliver",service="orderer_AtomicBroadcast",le="0.005"} 2
+grpc_server_stream_request_duration_bucket{code="Canceled",method="Deliver",service="orderer_AtomicBroadcast",le="0.01"} 2
+grpc_server_stream_request_duration_bucket{code="Canceled",method="Deliver",service="orderer_AtomicBroadcast",le="0.025"} 2
+grpc_server_stream_request_duration_bucket{code="Canceled",method="Deliver",service="orderer_AtomicBroadcast",le="0.05"} 2
+grpc_server_stream_request_duration_bucket{code="Canceled",method="Deliver",service="orderer_AtomicBroadcast",le="0.1"} 2
+grpc_server_stream_request_duration_bucket{code="Canceled",method="Deliver",service="orderer_AtomicBroadcast",le="0.25"} 3
+grpc_server_stream_request_duration_bucket{code="Canceled",method="Deliver",service="orderer_AtomicBroadcast",le="0.5"} 3
+grpc_server_stream_request_duration_bucket{code="Canceled",method="Deliver",service="orderer_AtomicBroadcast",le="1"} 3
+grpc_server_stream_request_duration_bucket{code="Canceled",method="Deliver",service="orderer_AtomicBroadcast",le="2.5"} 3
+grpc_server_stream_request_duration_bucket{code="Canceled",method="Deliver",service="orderer_AtomicBroadcast",le="5"} 3
+grpc_server_stream_request_duration_bucket{code="Canceled",method="Deliver",service="orderer_AtomicBroadcast",le="10"} 3
+grpc_server_stream_request_duration_bucket{code="Canceled",method="Deliver",service="orderer_AtomicBroadcast",le="+Inf"} 3
+grpc_server_stream_request_duration_sum{code="Canceled",method="Deliver",service="orderer_AtomicBroadcast"} 0.21561488399999998
+grpc_server_stream_request_duration_count{code="Canceled",method="Deliver",service="orderer_AtomicBroadcast"} 3
+grpc_server_stream_request_duration_bucket{code="OK",method="Broadcast",service="orderer_AtomicBroadcast",le="0.005"} 5067
+grpc_server_stream_request_duration_bucket{code="OK",method="Broadcast",service="orderer_AtomicBroadcast",le="0.01"} 5068
+grpc_server_stream_request_duration_bucket{code="OK",method="Broadcast",service="orderer_AtomicBroadcast",le="0.025"} 5072
+grpc_server_stream_request_duration_bucket{code="OK",method="Broadcast",service="orderer_AtomicBroadcast",le="0.05"} 5072
+grpc_server_stream_request_duration_bucket{code="OK",method="Broadcast",service="orderer_AtomicBroadcast",le="0.1"} 5073
+grpc_server_stream_request_duration_bucket{code="OK",method="Broadcast",service="orderer_AtomicBroadcast",le="0.25"} 5075
+grpc_server_stream_request_duration_bucket{code="OK",method="Broadcast",service="orderer_AtomicBroadcast",le="0.5"} 5076
+grpc_server_stream_request_duration_bucket{code="OK",method="Broadcast",service="orderer_AtomicBroadcast",le="1"} 5076
+grpc_server_stream_request_duration_bucket{code="OK",method="Broadcast",service="orderer_AtomicBroadcast",le="2.5"} 5076
+grpc_server_stream_request_duration_bucket{code="OK",method="Broadcast",service="orderer_AtomicBroadcast",le="5"} 5076
+grpc_server_stream_request_duration_bucket{code="OK",method="Broadcast",service="orderer_AtomicBroadcast",le="10"} 5076
+grpc_server_stream_request_duration_bucket{code="OK",method="Broadcast",service="orderer_AtomicBroadcast",le="+Inf"} 5076
+grpc_server_stream_request_duration_sum{code="OK",method="Broadcast",service="orderer_AtomicBroadcast"} 5.645589880000009
+grpc_server_stream_request_duration_count{code="OK",method="Broadcast",service="orderer_AtomicBroadcast"} 5076
+grpc_server_stream_request_duration_bucket{code="OK",method="Deliver",service="orderer_AtomicBroadcast",le="0.005"} 0
+grpc_server_stream_request_duration_bucket{code="OK",method="Deliver",service="orderer_AtomicBroadcast",le="0.01"} 0
+grpc_server_stream_request_duration_bucket{code="OK",method="Deliver",service="orderer_AtomicBroadcast",le="0.025"} 1
+grpc_server_stream_request_duration_bucket{code="OK",method="Deliver",service="orderer_AtomicBroadcast",le="0.05"} 1
+grpc_server_stream_request_duration_bucket{code="OK",method="Deliver",service="orderer_AtomicBroadcast",le="0.1"} 1
+grpc_server_stream_request_duration_bucket{code="OK",method="Deliver",service="orderer_AtomicBroadcast",le="0.25"} 5
+grpc_server_stream_request_duration_bucket{code="OK",method="Deliver",service="orderer_AtomicBroadcast",le="0.5"} 5
+grpc_server_stream_request_duration_bucket{code="OK",method="Deliver",service="orderer_AtomicBroadcast",le="1"} 5
+grpc_server_stream_request_duration_bucket{code="OK",method="Deliver",service="orderer_AtomicBroadcast",le="2.5"} 5
+grpc_server_stream_request_duration_bucket{code="OK",method="Deliver",service="orderer_AtomicBroadcast",le="5"} 5
+grpc_server_stream_request_duration_bucket{code="OK",method="Deliver",service="orderer_AtomicBroadcast",le="10"} 5
+grpc_server_stream_request_duration_bucket{code="OK",method="Deliver",service="orderer_AtomicBroadcast",le="+Inf"} 5
+grpc_server_stream_request_duration_sum{code="OK",method="Deliver",service="orderer_AtomicBroadcast"} 0.819545638
+grpc_server_stream_request_duration_count{code="OK",method="Deliver",service="orderer_AtomicBroadcast"} 5
+# HELP grpc_server_stream_requests_completed The number of stream requests completed.
+# TYPE grpc_server_stream_requests_completed counter
+grpc_server_stream_requests_completed{code="Canceled",method="Broadcast",service="orderer_AtomicBroadcast"} 5
+grpc_server_stream_requests_completed{code="Canceled",method="Deliver",service="orderer_AtomicBroadcast"} 3
+grpc_server_stream_requests_completed{code="OK",method="Broadcast",service="orderer_AtomicBroadcast"} 5076
+grpc_server_stream_requests_completed{code="OK",method="Deliver",service="orderer_AtomicBroadcast"} 5
+# HELP grpc_server_stream_requests_received The number of stream requests received.
+# TYPE grpc_server_stream_requests_received counter
+grpc_server_stream_requests_received{method="Broadcast",service="orderer_AtomicBroadcast"} 5081
+grpc_server_stream_requests_received{method="Deliver",service="orderer_AtomicBroadcast"} 10
+# HELP ledger_blockchain_height Height of the chain in blocks.
+# TYPE ledger_blockchain_height gauge
+ledger_blockchain_height{channel="mychannel"} 489
+ledger_blockchain_height{channel="system-channel"} 2
+# HELP ledger_blockstorage_commit_time Time taken in seconds for committing the block to storage.
+# TYPE ledger_blockstorage_commit_time histogram
+ledger_blockstorage_commit_time_bucket{channel="mychannel",le="0.005"} 487
+ledger_blockstorage_commit_time_bucket{channel="mychannel",le="0.01"} 489
+ledger_blockstorage_commit_time_bucket{channel="mychannel",le="0.015"} 489
+ledger_blockstorage_commit_time_bucket{channel="mychannel",le="0.05"} 489
+ledger_blockstorage_commit_time_bucket{channel="mychannel",le="0.1"} 489
+ledger_blockstorage_commit_time_bucket{channel="mychannel",le="1"} 489
+ledger_blockstorage_commit_time_bucket{channel="mychannel",le="10"} 489
+ledger_blockstorage_commit_time_bucket{channel="mychannel",le="+Inf"} 489
+ledger_blockstorage_commit_time_sum{channel="mychannel"} 0.912355824
+ledger_blockstorage_commit_time_count{channel="mychannel"} 489
+ledger_blockstorage_commit_time_bucket{channel="system-channel",le="0.005"} 2
+ledger_blockstorage_commit_time_bucket{channel="system-channel",le="0.01"} 2
+ledger_blockstorage_commit_time_bucket{channel="system-channel",le="0.015"} 2
+ledger_blockstorage_commit_time_bucket{channel="system-channel",le="0.05"} 2
+ledger_blockstorage_commit_time_bucket{channel="system-channel",le="0.1"} 2
+ledger_blockstorage_commit_time_bucket{channel="system-channel",le="1"} 2
+ledger_blockstorage_commit_time_bucket{channel="system-channel",le="10"} 2
+ledger_blockstorage_commit_time_bucket{channel="system-channel",le="+Inf"} 2
+ledger_blockstorage_commit_time_sum{channel="system-channel"} 0.003094856
+ledger_blockstorage_commit_time_count{channel="system-channel"} 2
+# HELP logging_entries_checked Number of log entries checked against the active logging level
+# TYPE logging_entries_checked counter
+logging_entries_checked{level="debug"} 255452
+logging_entries_checked{level="info"} 6136
+logging_entries_checked{level="warn"} 12
+# HELP logging_entries_written Number of log entries that are written
+# TYPE logging_entries_written counter
+logging_entries_written{level="info"} 6136
+logging_entries_written{level="warn"} 12
+# HELP process_cpu_seconds_total Total user and system CPU time spent in seconds.
+# TYPE process_cpu_seconds_total counter
+process_cpu_seconds_total 20.36
+# HELP process_max_fds Maximum number of open file descriptors.
+# TYPE process_max_fds gauge
+process_max_fds 1.048576e+06
+# HELP process_open_fds Number of open file descriptors.
+# TYPE process_open_fds gauge
+process_open_fds 28
+# HELP process_resident_memory_bytes Resident memory size in bytes.
+# TYPE process_resident_memory_bytes gauge
+process_resident_memory_bytes 5.7786368e+07
+# HELP process_start_time_seconds Start time of the process since unix epoch in seconds.
+# TYPE process_start_time_seconds gauge
+process_start_time_seconds 1.72318871848e+09
+# HELP process_virtual_memory_bytes Virtual memory size in bytes.
+# TYPE process_virtual_memory_bytes gauge
+process_virtual_memory_bytes 7.4532864e+08
+# HELP process_virtual_memory_max_bytes Maximum amount of virtual memory available in bytes.
+# TYPE process_virtual_memory_max_bytes gauge
+process_virtual_memory_max_bytes -1
+# HELP promhttp_metric_handler_requests_in_flight Current number of scrapes being served.
+# TYPE promhttp_metric_handler_requests_in_flight gauge
+promhttp_metric_handler_requests_in_flight 1
+# HELP promhttp_metric_handler_requests_total Total number of scrapes by HTTP status code.
+# TYPE promhttp_metric_handler_requests_total counter
+promhttp_metric_handler_requests_total{code="200"} 255
+promhttp_metric_handler_requests_total{code="500"} 0
+promhttp_metric_handler_requests_total{code="503"} 0
